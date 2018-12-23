@@ -21,6 +21,7 @@
       App Ops (permissions audit) (root)
       Signal (encrypted coms)
       ProtonVPN (or any other prem VPN)
+      Malwarebytes (run after installing an apk)
       Xposed modules & xprivacylua (root) (must be a supported device)
       
 3) Auditing Services
