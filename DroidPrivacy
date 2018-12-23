@@ -4,18 +4,21 @@
 1) If you are using Gapps,disable any unnecessary services by holding down the application icon
     -If uninstall is not an option, click disable and remove permissions
     -If you are on stock ROM, replace Gboard with AnySoftKeyboard (F-Droid)
+        If you keep gboard, settings to optimize privacy will be listed in System Settings instructions
     
 2) Install the following applications:
     F-Droid from https://f-droid.org/FDroid.apk
     On F-Droid:
       Shelter (Sandbox/isolation)
       AFWall+ (firewall) (root)
+      PilferShush (Mic blocker) 
       Scrambled Exif (photo metadata remover)
       Simple Contacts (Disable Google Contacts)
-      Simple Gallery (Disable Google Gallery) 
+      Simple Gallery (Disable Google Gallery)
+      Simple Calendar (Disable Google Calendar)
+      OsmAnd+ (Disable Google Maps)
     From Google Play Store (or any other apk mirrors)
       App Ops (permissions audit) (root)
-      PilferShush (Mic blocker) 
       Signal (encrypted coms)
       ProtonVPN (or any other prem VPN)
       Xposed modules & xprivacylua (root) (must be a supported device)
@@ -38,4 +41,25 @@
    ProtonVPN
       Start with Android - On
       DNS Leak - On
+ 4) System Settings
+        Connected Devices
+            Connection Preferences
+                Disable NFC
+                Turn Printing off
+        Security & Location
+            Lock Screen Preferences - Hide sensitive content
+            Location - Off
+            Show passwords - Off
+            Device Admin Apps - Remove "Find My Device"
+        Accessibility
+            Volume key shortcut - Off
+            Remove animations
+        System
+            Languages & input
+                Tap Virtual Keyboard
+                    If still using Gboard against my advice
+                        Turn off all text correction, dictionary, and predictive search
+                        Advanced
+                            Share usage statistics - Off
+
    
