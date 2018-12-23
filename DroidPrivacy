@@ -1,0 +1,41 @@
+#Android Security & Privacy Measures
+#Goes without saying that this will differ on your threat model and the ROM you are running
+
+1) If you are using Gapps,disable any unnecessary services by holding down the application icon
+    -If uninstall is not an option, click disable and remove permissions
+    -If you are on stock ROM, replace Gboard with AnySoftKeyboard (F-Droid)
+    
+2) Install the following applications:
+    F-Droid from https://f-droid.org/FDroid.apk
+    On F-Droid:
+      Shelter (Sandbox/isolation)
+      AFWall+ (firewall) (root)
+      Scrambled Exif (photo metadata remover)
+      Simple Contacts (Disable Google Contacts)
+      Simple Gallery (Disable Google Gallery) 
+    From Google Play Store (or any other apk mirrors)
+      App Ops (permissions audit) (root)
+      PilferShush (Mic blocker) 
+      Signal (encrypted coms)
+      ProtonVPN (or any other prem VPN)
+      Xposed modules & xprivacylua (root) (must be a supported device)
+      
+3) Auditing Services
+   Have all unnecessary services disabled (google sync, printer spool, NFC, etc)
+   Open the shelter app
+      Clone all applications suspected of embedded tracking to the Shelter (Gapp services may break)
+      Delete those cloned applications in personal profile
+   Open AFWall+
+      Select "block selected"
+      Select every application not vital to necessary services
+   Open App Ops
+      Audit application permissions thoroughly
+   PilferShush
+      Set to passive mode
+   Signal
+      Set to default messenger
+      Use of a VoIP (Gvoice or mysudo is optional)
+   ProtonVPN
+      Start with Android - On
+      DNS Leak - On
+   
