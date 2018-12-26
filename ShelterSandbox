@@ -7,11 +7,6 @@ Delete unncessesary applications:
 If you are not separating different profiles or utilizing the apps for more than one account,
 delete the application from the personal profile.
 
-so the sandbox loses root priveleges. people without root sometimes use netguard as a firewall
-It acts like a VPN that blocks , logs, notifies, and sends the traffic nowhere if its not permitted to connect
-If you use netguard and the vpn, only one will work at a time. So im using netguard inside the 
-work profile as a firewall, then using AFwall and my vpn inside my non-sandboxed side
-
 AFWall+ requires root permissions, and it only reaches the personal profile; the sandbox remains untouched.
 Firewalls that do not require root permission on Android typically route your traffic similar
 to a VPN (without going to a remote server). This can disrupt an actual VPN running on your device. 
