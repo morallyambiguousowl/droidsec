@@ -1,9 +1,9 @@
-#Android Security & Privacy Measures
-#Goes without saying that this will differ on your threat model and the ROM you are running
+Android Security & Privacy Measures
+Goes without saying that this will differ on your threat model and the ROM you are running
 
 1) If you are using Gapps,disable any unnecessary services by holding down the application icon
-    -If uninstall is not an option, click disable and remove permissions
-    -If you are on stock ROM, replace Gboard with AnySoftKeyboard (F-Droid)
+    If uninstall is not an option, click disable and remove permissions
+    If you are on stock ROM, replace Gboard with AnySoftKeyboard (F-Droid)
         If you keep gboard, settings to optimize privacy will be listed in System Settings instructions
     
 2) Install the following applications:
@@ -17,7 +17,7 @@
       Simple Gallery (Disable Google Gallery)
       Simple Calendar (Disable Google Calendar)
       OsmAnd+ (Disable Google Maps)
-    From Google Play Store (or any other apk mirrors)
+    On Google Play Store (or any other apk mirrors)
       App Ops (permissions audit) (root)
       Signal (encrypted coms)
       ProtonVPN (or any other prem VPN)
@@ -26,9 +26,10 @@
       
 3) Auditing Services
    Have all unnecessary services disabled (google sync, printer spool, NFC, etc)
-   Open the shelter app
+   Open the shelter app 
       Clone all applications suspected of embedded tracking to the Shelter (Gapp services may break)
       Delete those cloned applications in personal profile
+      Advanced Setup instructions in "ShelterSetup" file
    Open AFWall+
       Select "block selected"
       Select every application not vital to necessary services
@@ -42,6 +43,7 @@
    ProtonVPN
       Start with Android - On
       DNS Leak - On
+ 
  4) System Settings
         Connected Devices
             Connection Preferences
@@ -62,5 +64,3 @@
                         Turn off all text correction, dictionary, and predictive search
                         Advanced
                             Share usage statistics - Off
-
-   
