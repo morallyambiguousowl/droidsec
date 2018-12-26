@@ -1,8 +1,12 @@
 Android Security & Privacy Measures
 Goes without saying that this will differ on your threat model and the ROM you are running
 
-1) If you are using Gapps,disable any unnecessary services by holding down the application icon
+1) If you are using Gapps, disable any unnecessary services by holding down the application icon
     If uninstall is not an option, click disable and remove permissions
+    Open Google Play Store (assuming you don't choose to disable it)
+        Settings:
+            Auto-update apps - Don't auto-update apps
+            (without this step, Google will keep re-enabling/updating its undesired applications)
     If you are on stock ROM, replace Gboard with AnySoftKeyboard (F-Droid)
         If you keep gboard, settings to optimize privacy will be listed in System Settings instructions
     
