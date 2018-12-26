@@ -29,7 +29,7 @@ Goes without saying that this will differ on your threat model and the ROM you a
    Open the shelter app 
       Clone all applications suspected of embedded tracking to the Shelter (Gapp services may break)
       Delete those cloned applications in personal profile
-      Advanced Setup instructions in "ShelterSetup" file
+      Advanced Setup instructions in "ShelterSandbox" file
    Open AFWall+
       Select "block selected"
       Select every application not vital to necessary services
