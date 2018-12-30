@@ -68,3 +68,11 @@ Goes without saying that this will differ on your threat model and the ROM you a
                         Turn off all text correction, dictionary, and predictive search
                         Advanced
                             Share usage statistics - Off
+            Backup - Off
+            Turn on Developer options
+                System > Tap Build Number 5 times
+                Inside Developer options
+                    OEM Unlocking - off (should be off by default)
+                    USB Debugging - Off
+                    Revoke USB debugging authorizations
+                    Turn off Developer options
