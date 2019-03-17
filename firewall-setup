@@ -28,14 +28,6 @@ System Services/Frameworks that you can filter without error:
   Camera
   Captive PortalLogin
   Clock
-  com.quicinc.cne.CNEService.CNEServiceApp
-  Sprint OMA-DM provide
-  RCSService
-  Sprint support menu
-  Android System
-  com.android.wallpaperbackup
-  Fused Location
-  OMADMClient_Sprint_SystemDataService
   Contacts
   Intent Filter Verification Service
   Market Feedback Agent
