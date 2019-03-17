@@ -1,0 +1,52 @@
+(in progress)
+For the rooted user, I recommend the use of AFWall on the non-sandboxxed profile.
+This file is going to key in on what system services that you can safely prevent from contacting the internet. 
+
+Open AFWall | Preferences
+Logging
+  Turn on Log Service
+Security
+  Enable protection (set passcode/pattern)
+Rules / Connectivity
+  Active rules - Check
+  LAN control - Check
+  VPN control - Check (This must be selected so you can audit which applications can reach the internet over VPN connections)
+  
+System Services/Frameworks that you can filter without error:
+  Android Debug Bridge
+  Digital Rights Management service
+  GPS
+  Linux Kernel
+  Linux shell
+  Android Accessibility Suite
+  Android Setup
+  Android System Webview
+  Bluetooth
+  Calculator
+  Calendar
+  Calendar Storage
+  Camera
+  Captive PortalLogin
+  Clock
+  com.quicinc.cne.CNEService.CNEServiceApp
+  Sprint OMA-DM provide
+  RCSService
+  Sprint support menu
+  Android System
+  com.android.wallpaperbackup
+  Fused Location
+  OMADMClient_Sprint_SystemDataService
+  Contacts
+  Intent Filter Verification Service
+  Market Feedback Agent
+  Mobile Installer
+  MusicFX
+  Nfc Service
+  Photos
+  Print Service
+  ProxyHandler
+  Sprint OMA-DM
+  System UI
+  
+  These services are all being packet filtered and logged. My phone has complete functionality and reduces how many times
+  the device calls home. These are all I have tested so far. More to come.
